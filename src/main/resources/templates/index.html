@@ -278,30 +278,5 @@
             return;
         }
     }
-
-$(function () {
-        $('#tab tr').each(function(i){                   // 遍历 tr
-            var convertedCoordinate;
-            var amapCoordinate;
-            $(this).children('td').each(function(j){  // 遍历 tr 的各个 td
-                    if ($(this).attr("name") == 'convertedCoordinate') {
-                        convertedCoordinate = $(this).text();
-                    }
-                    if ($(this).attr("name") == 'amapCoordinate') {
-                        amapCoordinate = $(this).text();
-                    }
-                    if ($(this).attr("name")== 'distance' && convertedCoordinate && amapCoordinate) {
-                        if (convertedCoordinate != amapCoordinate) {
-                            //调用高德jsMap计算距离
-                            var dis =  AMap.GeometryUtil.distance(convertedCoordinate.split(',') , amapCoordinate.split(','));
-                            $(this).html(dis+'米');
-                            console.log("----------");
-                            console.log(dis);
-                        }
-                    }
-            });
-    });
-});
-
 </script>
 </html>
