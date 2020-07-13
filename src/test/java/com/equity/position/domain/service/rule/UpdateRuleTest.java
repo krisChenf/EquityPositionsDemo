@@ -40,7 +40,7 @@ public class UpdateRuleTest {
         t1 = new TransactionDTO();
         t1.setQuantity(BigDecimal.TEN);
         t1.setAction(ActionEnum.INSERT);
-        t1.setTradeId(111);
+        t1.setTradeId(123);
         t1.setVersion(0);
         t1.setType(TransactionTypeEnum.BUY);
         t1.setSecurityCode("REL");
