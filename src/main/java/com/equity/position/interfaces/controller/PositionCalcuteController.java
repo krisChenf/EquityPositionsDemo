@@ -42,9 +42,10 @@ public class PositionCalcuteController {
     @RequestMapping("/input")
     public String toSearchPage(@Validated TransactionVO transactionVO) throws JsonProcessingException {
         logger.info("Equity Positions input...{}",transactionVO.toString());
-        rules.validate(TransactionDTO.from(transactionVO));
+        TransactionDTO dto= rules.validate(TransactionDTO.from(transactionVO));
         Map<String,Object> map = calculator.calculate(TransactionDTO.from(transactionVO));
         map.put("errorCode", HttpStatus.OK.value());
+        map.put("reqData", dto);
         return objectMapper.writeValueAsString(map);
     }
 

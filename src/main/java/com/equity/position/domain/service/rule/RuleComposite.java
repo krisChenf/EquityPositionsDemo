@@ -49,7 +49,7 @@ public class RuleComposite implements IRule{
     }
 
     @Override
-    public void validate(TransactionDTO transaction) {
+    public TransactionDTO validate(TransactionDTO transaction) {
         logger.info("start CompositeRule...");
         for (IRule r:ruleList) {
             if(r.isActive())
@@ -57,7 +57,7 @@ public class RuleComposite implements IRule{
         }
         Transaction trnsctn = repository.save(Transaction.from(transaction));
         logger.info("transaction is saved : {}",trnsctn);
-
+        return TransactionDTO.from(trnsctn);
     }
 
 }

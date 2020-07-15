@@ -19,7 +19,7 @@ public class TransactionVO {
     private Integer version;
     @NotBlank
     private String securityCode;
-    @NotNull
+    @NotBlank
     private String quantity;
     @NotBlank
     private String action;

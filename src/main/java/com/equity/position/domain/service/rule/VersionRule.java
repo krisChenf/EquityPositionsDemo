@@ -31,12 +31,13 @@ public class VersionRule extends AbstractRule {
     }
 
     @Override
-    public void validate(TransactionDTO transaction) {
+    public TransactionDTO validate(TransactionDTO transaction) {
         logger.info("start versionRule validate....");
         List<Transaction> list = repository.findByTradeIdAndVersion(transaction.getTradeId(),transaction.getVersion());
         if(!list.isEmpty()){
             throw new RuleException(BizErrorCodeEnum.SAME_VERSION_ERROR);
         }
+        return transaction;
     }
 
     @Override

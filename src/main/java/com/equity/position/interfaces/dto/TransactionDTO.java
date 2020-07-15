@@ -1,5 +1,6 @@
 package com.equity.position.interfaces.dto;
 
+import com.equity.position.domain.entity.Transaction;
 import com.equity.position.domain.vo.TransactionTypeEnum;
 import com.equity.position.domain.vo.ActionEnum;
 import com.equity.position.domain.vo.TransactionVO;
@@ -29,6 +30,17 @@ public class TransactionDTO {
         dto.setQuantity(new BigDecimal(vo.getQuantity()));
         dto.setVersion(vo.getVersion());
         dto.setSecurityCode(vo.getSecurityCode());
+        return dto;
+    }
+    public static TransactionDTO from(Transaction transaction){
+        TransactionDTO dto = new TransactionDTO();
+        dto.setTransactionID(transaction.getTransactionId());
+        dto.setAction(Enum.valueOf(ActionEnum.class, transaction.getAction().name()));
+        dto.setType(Enum.valueOf(TransactionTypeEnum.class, transaction.getType().name()));
+        dto.setTradeId(transaction.getTradeId());
+        dto.setQuantity(transaction.getQuantity());
+        dto.setVersion(transaction.getVersion());
+        dto.setSecurityCode(transaction.getSecurityCode());
         return dto;
     }
 

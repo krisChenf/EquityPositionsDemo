@@ -27,7 +27,8 @@ public class AbstractRule implements IRule {
     }
 
     @Override
-    public  void validate(TransactionDTO transaction) {
+    public TransactionDTO validate(TransactionDTO transaction) {
 
+        return transaction;
     }
 }

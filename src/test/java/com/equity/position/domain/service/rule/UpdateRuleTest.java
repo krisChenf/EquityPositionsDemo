@@ -35,6 +35,7 @@ public class UpdateRuleTest {
     private IRule updateRule;
     private TransactionDTO t1;
     private TransactionDTO t2;
+
     @Before
     public void prepareData() throws Exception {
         t1 = new TransactionDTO();
@@ -50,7 +51,7 @@ public class UpdateRuleTest {
     }
 
 
-    @Test(expected  = RuleException.class)
+    @Test(expected = RuleException.class)
     public void testValidate() throws Exception {
         t1.setAction(ActionEnum.UPDATE);
         updateRule.validate(t1);

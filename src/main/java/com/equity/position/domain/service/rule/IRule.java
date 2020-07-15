@@ -10,5 +10,5 @@ public interface IRule {
     void addRule(IRule rule);
     void removeRule(IRule rule);
     void displayRule();
-    void validate(TransactionDTO transaction);
+    TransactionDTO validate(TransactionDTO transaction);
 }

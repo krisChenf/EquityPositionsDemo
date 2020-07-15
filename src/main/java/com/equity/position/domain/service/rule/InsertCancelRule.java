@@ -8,7 +8,6 @@ import com.equity.position.domain.exception.RuleException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
@@ -32,17 +31,22 @@ public class InsertCancelRule extends AbstractRule {
     }
 
     @Override
-    public void validate(TransactionDTO transaction) {
+    public TransactionDTO validate(TransactionDTO transaction) {
         if(transaction.getAction().equals(ActionEnum.INSERT)){
+            if(!(transaction.getVersion().compareTo(1) == 0))
+                throw new RuleException(BizErrorCodeEnum.INSERT__VERSION_ERROR);
             Integer minVersion = repository.findMinVersionByTradeId(transaction.getTradeId());
             if(null != minVersion && transaction.getVersion() > minVersion)
             throw new RuleException(BizErrorCodeEnum.INSERT_CANCEL_ERROR);
         }
+
+        // cancel must be the max version
         if(transaction.getAction().equals(ActionEnum.CANCEL)){
             Integer maxVersion = repository.findMaxVersionByTradeId(transaction.getTradeId());
             if(null != maxVersion && transaction.getVersion() < maxVersion)
             throw new RuleException(BizErrorCodeEnum.INSERT_CANCEL_ERROR);
         }
+        return transaction;
     }
 
     @Override

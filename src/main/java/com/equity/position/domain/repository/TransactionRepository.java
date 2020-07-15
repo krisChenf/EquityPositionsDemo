@@ -5,23 +5,17 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
+import java.math.BigDecimal;
 import java.util.List;
-import java.util.Map;
 
 /**
  * Created by Administrator on 2019/12/5.
  */
 public interface TransactionRepository extends JpaRepository<Transaction, Long>,JpaSpecificationExecutor<Transaction> {
 
-
     List<Transaction> findByTradeIdAndVersion(@Param("tradeId")int tradeId,@Param("version")int version);
 
     List<Transaction> findByTradeId(@Param("tradeId")int tradeId);
-
-    @Query(value = "SELECT SUM(t1.quantity) AS quantity, t1.type, t1.security_code AS securityCode FROM t_transactions t1 " +
-            " WHERE t1.security_code = :securityCode  AND t1.action != :actionEnum " +
-            " GROUP BY t1.type,t1.security_code", nativeQuery = true)
-    List<Map<String,Object>> findAllQuantityBySecurityCode(@Param("securityCode")String SecurityCode,@Param("actionEnum")String action);
 
     @Query(value = "SELECT  Max(t1.version) AS maxVersion FROM t_transactions t1" +
             " WHERE t1.trade_id = :tradeId", nativeQuery = true)
@@ -31,5 +25,10 @@ public interface TransactionRepository extends JpaRepository<Transaction, Long>,
             " WHERE t1.trade_id = :tradeId", nativeQuery = true)
     Integer findMinVersionByTradeId(@Param("tradeId")int tradeId);
 
+    @Query(value = "SELECT quantity FROM t_transactions t1 WHERE t1.security_code = :securityCode  " +
+        "AND t1.TYPE= :transactionType AND t1.action != :actions and t1.version in " +
+        "(SELECT max (version) FROM t_transactions T WHERE T.security_code = :securityCode  " +
+        "AND T.TYPE= :transactionType AND T.action != :actions)", nativeQuery = true)
+    BigDecimal findQuantityBySecurityCodeAndType(@Param("securityCode")String SecurityCode, @Param("transactionType")String type, @Param("actions")String action);
 
 }

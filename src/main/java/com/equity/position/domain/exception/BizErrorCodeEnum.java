@@ -9,7 +9,9 @@ public enum BizErrorCodeEnum implements ErrorCode {
     UNSPECIFIED("500", "内部异常，请稍后再试"),
     SAME_VERSION_ERROR("1001", "INSERT / UPDATE / CANCEL are actions on a Trade (with same trade id but different version)"),
     INSERT_CANCEL_ERROR("1002", "INSERT will always be 1st version of a Trade, CANCEL will always be last version of Trade"),
-    UPDATE_ERROR("1004", "For UPDATE, SecurityCode or Quantity or Buy/Sell can change")
+    INSERT__VERSION_ERROR("10021", "INSERT will always be 1st ,version must be 1"),
+    UPDATE_ERROR("1004", "for UPDATE, but SecurityCode or Quantity or Buy/Sell has no change"),
+    INSERT_DATA_ERROR("10041", "for UPDATE ,but SecurityCode or Quantity or Buy/Sell has no change")
     ;
 
     /** 错误码 */
