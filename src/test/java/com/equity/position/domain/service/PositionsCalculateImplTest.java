@@ -37,19 +37,19 @@ public class PositionsCalculateImplTest {
         t1 = new Transaction();
         t1.setQuantity(BigDecimal.TEN);
         t1.setAction(ActionEnum.INSERT);
-        t1.setTradeId(0);
+        t1.setTradeId(21);
         t1.setVersion(1);
         t1.setType(TransactionTypeEnum.BUY);
-        t1.setSecurityCode("REL");
+        t1.setSecurityCode("RELL");
         Transaction result = repository.save(t1);
         logger.info("prepare data for position calculate test{}" + result);
         t2 = new Transaction();
         t2.setQuantity(BigDecimal.ONE);
         t2.setAction(ActionEnum.UPDATE);
-        t2.setTradeId(0);
+        t2.setTradeId(21);
         t2.setVersion(19);
         t2.setType(TransactionTypeEnum.SELL);
-        t2.setSecurityCode("REL");
+        t2.setSecurityCode("RELL");
         Transaction result2 = repository.save(t2);
         logger.info("prepare data for position calculate test{}" + result2);
 
@@ -66,8 +66,8 @@ public class PositionsCalculateImplTest {
         TransactionDTO dto = new TransactionDTO();
         BeanUtils.copyProperties(t2,dto);
         Map<String, Object>result = positionsCalculate.calculate(dto);
-        BigDecimal quantity = (BigDecimal)result.get("quantity");
-        Assert.assertTrue(0 == quantity.compareTo(new BigDecimal(9)));
-        Assert.assertTrue("REL".equals(result.get("securityCode")));
+        int quantity = (int)result.get("quantity");
+        Assert.assertTrue(quantity == 9 );
+        Assert.assertTrue("RELL".equals(result.get("securityCode")));
     }
 }

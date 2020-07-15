@@ -6,22 +6,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df552fbe-8c02-4704-bc90-b8b7feed17cb" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/PositionDemoApplication.class" afterPath="$PROJECT_DIR$/target/classes/com/PositionDemoApplication.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/equity/position/domain/entity/Transaction.class" afterPath="$PROJECT_DIR$/target/classes/com/equity/position/domain/entity/Transaction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/equity/position/domain/exception/BizErrorCodeEnum.class" afterPath="$PROJECT_DIR$/target/classes/com/equity/position/domain/exception/BizErrorCodeEnum.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/equity/position/domain/exception/ErrorMessage.class" afterPath="$PROJECT_DIR$/target/classes/com/equity/position/domain/exception/ErrorMessage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/equity/position/domain/exception/GlobalDefultExceptionHandler.class" afterPath="$PROJECT_DIR$/target/classes/com/equity/position/domain/exception/GlobalDefultExceptionHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/equity/position/domain/exception/RuleException.class" afterPath="$PROJECT_DIR$/target/classes/com/equity/position/domain/exception/RuleException.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/equity/position/domain/repository/TransactionRepository.class" afterPath="$PROJECT_DIR$/target/classes/com/equity/position/domain/repository/TransactionRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/equity/position/domain/service/PositionsCalculate.class" afterPath="$PROJECT_DIR$/target/classes/com/equity/position/domain/service/PositionsCalculate.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/equity/position/domain/service/PositionsCalculateImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/equity/position/domain/service/PositionsCalculateImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/equity/position/domain/service/rule/AbstractRule.class" afterPath="$PROJECT_DIR$/target/classes/com/equity/position/domain/service/rule/AbstractRule.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/equity/position/domain/service/rule/IRule.class" afterPath="$PROJECT_DIR$/target/classes/com/equity/position/domain/service/rule/IRule.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/equity/position/domain/service/rule/InsertCancelRule.class" afterPath="$PROJECT_DIR$/target/classes/com/equity/position/domain/service/rule/InsertCancelRule.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/equity/position/domain/service/rule/RuleComposite.class" afterPath="$PROJECT_DIR$/target/classes/com/equity/position/domain/service/rule/RuleComposite.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/equity/position/domain/service/rule/UpdateRule.class" afterPath="$PROJECT_DIR$/target/classes/com/equity/position/domain/service/rule/UpdateRule.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/equity/position/domain/service/rule/VersionRule.class" afterPath="$PROJECT_DIR$/target/classes/com/equity/position/domain/service/rule/VersionRule.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/equity/position/domain/vo/ActionEnum.class" afterPath="$PROJECT_DIR$/target/classes/com/equity/position/domain/vo/ActionEnum.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/equity/position/domain/vo/TransactionTypeEnum.class" afterPath="$PROJECT_DIR$/target/classes/com/equity/position/domain/vo/TransactionTypeEnum.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/equity/position/domain/vo/TransactionVO.class" afterPath="$PROJECT_DIR$/target/classes/com/equity/position/domain/vo/TransactionVO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/equity/position/interfaces/controller/PositionCalcuteController.class" afterPath="$PROJECT_DIR$/target/classes/com/equity/position/interfaces/controller/PositionCalcuteController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/equity/position/interfaces/dto/TransactionDTO.class" afterPath="$PROJECT_DIR$/target/classes/com/equity/position/interfaces/dto/TransactionDTO.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/equity/position/domain/exception/BizErrorCodeEnum.java" afterPath="$PROJECT_DIR$/src/main/java/com/equity/position/domain/exception/BizErrorCodeEnum.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/equity/position/domain/exception/GlobalDefultExceptionHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/equity/position/domain/exception/GlobalDefultExceptionHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/equity/position/domain/repository/TransactionRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/equity/position/domain/repository/TransactionRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/equity/position/domain/service/PositionsCalculateImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/equity/position/domain/service/PositionsCalculateImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/equity/position/domain/service/rule/AbstractRule.java" afterPath="$PROJECT_DIR$/src/main/java/com/equity/position/domain/service/rule/AbstractRule.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/equity/position/domain/service/rule/IRule.java" afterPath="$PROJECT_DIR$/src/main/java/com/equity/position/domain/service/rule/IRule.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/equity/position/domain/service/rule/InsertCancelRule.java" afterPath="$PROJECT_DIR$/src/main/java/com/equity/position/domain/service/rule/InsertCancelRule.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/equity/position/domain/service/rule/RuleComposite.java" afterPath="$PROJECT_DIR$/src/main/java/com/equity/position/domain/service/rule/RuleComposite.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/equity/position/domain/service/rule/UpdateRule.java" afterPath="$PROJECT_DIR$/src/main/java/com/equity/position/domain/service/rule/UpdateRule.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/equity/position/domain/service/rule/VersionRule.java" afterPath="$PROJECT_DIR$/src/main/java/com/equity/position/domain/service/rule/VersionRule.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/equity/position/domain/vo/TransactionVO.java" afterPath="$PROJECT_DIR$/src/main/java/com/equity/position/domain/vo/TransactionVO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/equity/position/interfaces/controller/PositionCalcuteController.java" afterPath="$PROJECT_DIR$/src/main/java/com/equity/position/interfaces/controller/PositionCalcuteController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/equity/position/interfaces/dto/TransactionDTO.java" afterPath="$PROJECT_DIR$/src/main/java/com/equity/position/interfaces/dto/TransactionDTO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/equity/position/domain/service/rule/UpdateRuleTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/equity/position/domain/service/rule/UpdateRuleTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/equity/position/domain/service/PositionsCalculateImplTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/equity/position/domain/service/PositionsCalculateImplTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,6 +36,11 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/EquityPositionsDemo$PositionDemoApplication.coverage" NAME="PositionDemoApplication Coverage Results" MODIFIED="1594806442657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.*</FILTER>
+    </SUITE>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -54,19 +65,21 @@
       <file leaf-file-name="PositionsCalculateImplTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/equity/position/domain/service/PositionsCalculateImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="67" column="64" lean-forward="false" selection-start-line="67" selection-start-column="55" selection-end-line="67" selection-end-column="64" />
+            <state relative-caret-position="-6">
+              <caret line="64" column="21" lean-forward="false" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BizErrorCodeEnum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/equity/position/domain/exception/BizErrorCodeEnum.java">
+      <file leaf-file-name="PositionsCalculate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/equity/position/domain/service/PositionsCalculate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-              <folding />
+            <state relative-caret-position="271">
+              <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,7 +88,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/equity/position/domain/service/rule/InsertCancelRule.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="444">
-              <caret line="55" column="1" lean-forward="true" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+              <caret line="55" column="1" lean-forward="false" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2189#2190#0" expanded="true" />
@@ -85,11 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TransactionRepository.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TransactionRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/equity/position/domain/repository/TransactionRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="411">
+              <caret line="30" column="43" lean-forward="false" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <marker date="1594805676046" expanded="true" signature="766:872" ph="SELECT SUM (... t_transactions" />
@@ -112,11 +125,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TransactionRepositoryTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TransactionRepositoryTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/equity/position/domain/repository/TransactionRepositoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1411">
-              <caret line="70" column="1" lean-forward="true" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
+            <state relative-caret-position="271">
+              <caret line="68" column="5" lean-forward="true" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -139,8 +152,8 @@
       <file leaf-file-name="PositionsCalculateImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/equity/position/domain/service/PositionsCalculateImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="35" column="81" lean-forward="false" selection-start-line="35" selection-start-column="70" selection-end-line="35" selection-end-column="81" />
+            <state relative-caret-position="229">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -162,7 +175,7 @@
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/math/MathContext.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="157">
-              <caret line="95" column="42" lean-forward="true" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="45" />
+              <caret line="95" column="42" lean-forward="false" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -265,7 +278,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/equity/position/controller/PositionCalcuteController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equity/position/domain/service/PositionsCalculate.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equity/position/domain/exception/ErrorCode.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/equity/position/domain/service/PositionsCalculateImplTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/equity/position/domain/service/rule/UpdateRul888eTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equity/position/domain/service/rule/VersionRule.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/equity/position/domain/service/rule/InsertCancelRuleTest.java" />
@@ -283,6 +295,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/equity/position/domain/service/rule/InsertCancelRule.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equity/position/domain/service/PositionsCalculateImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/equity/position/domain/repository/TransactionRepository.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/equity/position/domain/service/PositionsCalculateImplTest.java" />
       </list>
     </option>
   </component>
@@ -1426,6 +1439,10 @@
               <option name="myItemId" value="service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PositionsCalculate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ClassTreeNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1882,7 +1899,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PositionDemoApplication">
+  <component name="RunManager" selected="JUnit.PositionsCalculateImplTest.calculate">
     <configuration default="false" name="InsertCancelRuleTest.testValidate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -2427,9 +2444,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.PositionDemoApplication" />
-        <item index="1" class="java.lang.String" itemvalue="Application.PositionsCalculateImpl" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.PositionsCalculateImplTest.calculate" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PositionsCalculateImplTest.calculate" />
+        <item index="1" class="java.lang.String" itemvalue="Application.PositionDemoApplication" />
+        <item index="2" class="java.lang.String" itemvalue="Application.PositionsCalculateImpl" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.TransactionRepositoryTest.findQuantityBySecurityCodeAndType" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.InsertCancelRuleTest.testValidate" />
       </list>
@@ -2473,25 +2490,34 @@
       <workItem from="1575599512210" duration="3799000" />
       <workItem from="1579068761836" duration="3952000" />
       <workItem from="1594470206511" duration="84745000" />
-      <workItem from="1594781065571" duration="23103000" />
+      <workItem from="1594781065571" duration="24665000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="InsertCancelRuleTest_testValidate - 2020.07.13 at 09h 01m 23s.xml">
-      <configuration name="InsertCancelRuleTest.testValidate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InsertCancelRuleTest_testValidate - 2020.07.13 at 09h 16m 25s.xml">
-      <configuration name="InsertCancelRuleTest.testValidate" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PositionsCalculateImplTest_calculate - 2020.07.15 at 16h 24m 39s.xml">
       <configuration name="PositionsCalculateImplTest.calculate" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PositionsCalculateImplTest_calculate - 2020.07.15 at 16h 25m 25s.xml">
       <configuration name="PositionsCalculateImplTest.calculate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TransactionRepositoryTest_findQuantityBySecurityCodeAndType - 2020.07.15 at 16h 13m 11s.xml">
-      <configuration name="TransactionRepositoryTest.findQuantityBySecurityCodeAndType" configurationId="JUnit" />
+    <history-entry file="PositionsCalculateImplTest_calculate - 2020.07.15 at 17h 57m 30s.xml">
+      <configuration name="PositionsCalculateImplTest.calculate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PositionsCalculateImplTest_calculate - 2020.07.15 at 18h 01m 12s.xml">
+      <configuration name="PositionsCalculateImplTest.calculate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PositionsCalculateImplTest_calculate - 2020.07.15 at 18h 02m 51s.xml">
+      <configuration name="PositionsCalculateImplTest.calculate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PositionsCalculateImplTest_calculate - 2020.07.15 at 18h 03m 49s.xml">
+      <configuration name="PositionsCalculateImplTest.calculate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PositionsCalculateImplTest_calculate - 2020.07.15 at 18h 05m 20s.xml">
+      <configuration name="PositionsCalculateImplTest.calculate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PositionsCalculateImplTest_calculate - 2020.07.15 at 18h 06m 22s.xml">
+      <configuration name="PositionsCalculateImplTest.calculate" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TransactionRepositoryTest_findQuantityBySecurityCodeAndType - 2020.07.15 at 16h 16m 45s.xml">
       <configuration name="TransactionRepositoryTest.findQuantityBySecurityCodeAndType" configurationId="JUnit" />
@@ -2499,22 +2525,12 @@
     <history-entry file="TransactionRepositoryTest_findQuantityBySecurityCodeAndType - 2020.07.15 at 16h 22m 33s.xml">
       <configuration name="TransactionRepositoryTest.findQuantityBySecurityCodeAndType" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UpdateRuleTest_testValidate - 2020.07.13 at 09h 05m 13s.xml">
-      <configuration name="UpdateRuleTest.testValidate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UpdateRuleTest_testValidate - 2020.07.13 at 09h 06m 55s.xml">
-      <configuration name="UpdateRuleTest.testValidate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VersionRuleTest_testValidate - 2020.07.13 at 09h 14m 31s.xml">
-      <configuration name="VersionRuleTest.testValidate" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="357692000" />
+    <option name="totallyTimeSpent" value="359254000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -2533,10 +2549,11 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61786234" sideWeight="0.49481866" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41288432" sideWeight="0.49481866" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32966322" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7554905" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6691069" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6691069" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25906736" sideWeight="0.8282648" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2655,29 +2672,11 @@
           <properties />
           <option name="timeStamp" value="132" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/equity/position/domain/service/PositionsCalculateImpl.java</url>
-          <line>36</line>
-          <properties />
-          <option name="timeStamp" value="149" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/equity/position/domain/service/PositionsCalculateImpl.java</url>
-          <line>35</line>
-          <properties />
-          <option name="timeStamp" value="150" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/equity/position/domain/service/PositionsCalculateImpl.java</url>
-          <line>39</line>
-          <properties />
-          <option name="timeStamp" value="151" />
-        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="152" />
+      <option name="time" value="156" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -2784,16 +2783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
           <caret line="335" column="23" lean-forward="false" selection-start-line="335" selection-start-column="23" selection-end-line="335" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/equity/position/domain/service/PositionsCalculate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2979,40 +2968,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/equity/position/domain/service/PositionsCalculateImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="67" column="64" lean-forward="false" selection-start-line="67" selection-start-column="55" selection-end-line="67" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/equity/position/domain/service/rule/InsertCancelRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="55" column="1" lean-forward="true" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2189#2190#0" expanded="true" />
-            <element signature="e#2220#2221#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/equity/position/interfaces/dto/TransactionDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/equity/position/domain/repository/TransactionRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="70" column="1" lean-forward="true" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -3030,7 +2989,7 @@
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/math/MathContext.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
-          <caret line="95" column="42" lean-forward="true" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="45" />
+          <caret line="95" column="42" lean-forward="false" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="45" />
           <folding />
         </state>
       </provider>
@@ -3045,25 +3004,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/equity/position/domain/service/PositionsCalculateImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/equity/position/domain/repository/TransactionRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="35" column="81" lean-forward="false" selection-start-line="35" selection-start-column="70" selection-end-line="35" selection-end-column="81" />
+        <state relative-caret-position="411">
+          <caret line="30" column="43" lean-forward="false" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1594805676046" expanded="true" signature="766:872" ph="SELECT SUM (... t_transactions" />
+            <marker date="1594805676046" expanded="true" signature="983:1089" ph="SELECT Min(t... t_transactions" />
+            <marker date="1594805676046" expanded="true" signature="1200:1529" ph="SELECT quant... t_transactions" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/equity/position/domain/service/PositionsCalculateImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6">
+          <caret line="64" column="21" lean-forward="false" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/equity/position/domain/service/PositionsCalculate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/equity/position/domain/repository/TransactionRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/equity/position/domain/service/rule/InsertCancelRule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="444">
+          <caret line="55" column="1" lean-forward="false" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1594805676046" expanded="true" signature="766:872" ph="SELECT SUM (... t_transactions" />
-            <marker date="1594805676046" expanded="true" signature="983:1089" ph="SELECT Min(t... t_transactions" />
-            <marker date="1594805676046" expanded="true" signature="1200:1529" ph="SELECT quant... t_transactions" />
+            <element signature="e#2189#2190#0" expanded="true" />
+            <element signature="e#2220#2221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/equity/position/domain/service/PositionsCalculateImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/equity/position/domain/repository/TransactionRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="68" column="5" lean-forward="true" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

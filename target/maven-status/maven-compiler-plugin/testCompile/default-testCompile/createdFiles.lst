@@ -1,0 +1,5 @@
+com\equity\position\domain\service\rule\UpdateRuleTest.class
+com\equity\position\domain\service\rule\InsertCancelRuleTest.class
+com\equity\position\domain\service\PositionsCalculateImplTest.class
+com\equity\position\domain\service\rule\VersionRuleTest.class
+com\equity\position\domain\repository\TransactionRepositoryTest.class
