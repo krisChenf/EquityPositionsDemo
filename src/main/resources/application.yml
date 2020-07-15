@@ -29,7 +29,7 @@ spring:
       path: /console
       settings:
         trace: false
-        web-allow-others: false
+        web-allow-others: true
 ## -----------------------业务规则配置---------------------------
 business:
  rules:
